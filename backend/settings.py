@@ -42,11 +42,11 @@ class _UiSettings(BaseSettings):
     )
 
     title: str = "JFCE"
-    logo: Optional[str] = None
-    chat_logo: Optional[str] = None
-    chat_title: str = "Start chatting"
-    chat_description: str = "This chatbot is configured to answer your questions"
-    favicon: str = "/favicon.ico"
+    logo: str = "http://www.jfce.jus.br/wp-content/uploads/2023/07/logo-jfce-menufixo.png" #Optional[str] = None
+    chat_logo: str = "http://www.jfce.jus.br/wp-content/uploads/2023/07/logo-jfce-menufixo.png" #Optional[str] = None
+    chat_title: str = "Assistente de IA da JFCE" #"Start chatting"
+    chat_description: str = "Como posso te ajudar hoje?" #"This chatbot is configured to answer your questions"
+    favicon: str = "https://www.jfce.jus.br/wp-content/uploads/2023/07/favicon-jfce.png" #"/favicon.ico"
     show_share_button: bool = True
     show_chat_history_button: bool = True
 
